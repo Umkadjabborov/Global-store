@@ -10,10 +10,10 @@ const app = express();
 // ===================
 // CORS CONFIGURATION
 // ===================
-// Allow requests from frontend (port 3000)
+// Allow requests from frontend (port 3001)
 // This handles both regular requests AND preflight OPTIONS requests
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://127.0.0.1:3000'],
+  origin: ['http://localhost:3001', 'http://127.0.0.1:3001'],
   credentials: true
 }));
 
